@@ -3,7 +3,7 @@ import textwrap
 from IPython.display import Markdown
 import google.generativeai as genai
 
-GOOGLE_API_KEY = 'AIzaSyAbD6Zyw5ZsLmRfr3yUNk52UOEqvBNvCG4'
+GOOGLE_API_KEY = 'YOUR_API_KEY'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 for m in genai.list_models():
